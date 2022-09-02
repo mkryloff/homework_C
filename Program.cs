@@ -1,0 +1,12 @@
+﻿Console.Write("Введите первое число: ");
+string a = Console.ReadLine();
+int first = Convert.ToInt32(a);
+Console.Write("Введите второе число: ");
+string b = Console.ReadLine();
+int second = Convert.ToInt32(b);
+Console.Write("Введите третье число: ");
+string с = Console.ReadLine();
+int third = Convert.ToInt32(с);
+int submax=(Math.Max(first, second));
+int max=(Math.Max(submax, third));
+Console.WriteLine("max = " + max);
